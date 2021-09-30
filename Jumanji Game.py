@@ -6,7 +6,7 @@ print("Hey",name)
 hey=int(input ("Wanna play this game? (1/0) :"))
 if hey==True:
 	print("Okay!!\nLet's the journey beign\nYour health = 1\nThat means you've 1 life\nSo, be carefull :)")
-	journey=int(input("Choose your charecter\n (1) Spencer\t (2) Martha\t (3) Alan\t (4) Angela\n(1/2/3/4):"))
+	journey=int(input("Choose your charecter\n (1) Spencer\t (2) Martha\t (3) Robert\t (4) Angela\n(1/2/3/4):"))
 	if journey==1:
 		spe="\twelcome to jumanji"
 		print(spe.upper())
@@ -67,9 +67,9 @@ if hey==True:
 						print("By choosing west you reach swampy  lake where crocs are waiting for dinner and there is no way to avoid that swampy lake\nYou have to cross this lake on foot\nIf you thought that you stay there\nThat foolish choise pay your life by hunted a panther\nSo what would you do now?")
 						t_u=int(input("stay [1]\t or\tokeep going [0] :"))
 						if t_u==1:
-							print("\t  RIP\n\tYou Coward")
+							print("\t  RIP\n\t You Coward")
 						else:
-							print("\t  RIP\n\tYou Bravy Soul")
+							print("\t  RIP\n\t You Bravy Soul")
 					
 				else:
 					print("well!!!\nNow you have to make decition which direction you wanna go?")
@@ -93,4 +93,4 @@ if hey==True:
 			print(r_u.upper())
 		
 else:
-	print("0kay friend!!\n Have a nice day :)")
+	print("0kay Friend!!\n Have A Nice Day.... :)")
